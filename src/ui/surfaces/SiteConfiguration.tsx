@@ -105,7 +105,6 @@ function EventSettings() {
       <Form
         className="tw-pt-6 tw-max-w-170"
         defaultValues={query.data ?? {
-          collectAutomatedEvents: true,
           collectDownloads: true,
           collectEmailClicks: true,
           collectOutboundLinks: true,
