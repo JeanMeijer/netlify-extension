@@ -36,10 +36,12 @@
     "typescript": "^5.8.2",
     "vite": "^6.2.3"
   },
-  "overrides": {
-    "react": "19.x",
-    "react-dom": "19.x",
-    "@types/react": "19.x",
-    "@types/react-dom": "19.x"
+  "pnpm": {
+    "overrides": {
+      "react": "19.x",
+      "react-dom": "19.x",
+      "@types/react": "19.x",
+      "@types/react-dom": "19.x"
+    }
   }
 }
